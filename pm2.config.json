@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "testcase",
+    "script": "./bin/www",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss",
+    "error_file": "./logs/app-err.log",
+    "out_file": "./logs/app-out.log",
+    "pid_file": "./logs/app-pid.log",
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "env_dev": {
+      "NODE_ENV": "development"
+    }
+  }]
+}

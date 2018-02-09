@@ -1,0 +1,35 @@
+{
+  "appenders": {
+    "out": {
+      "type": "dateFile",
+      "filename": "logs/testcase-out",
+      "pattern": "-yyyyMMdd.log",
+      "absolute": false,
+      "alwaysIncludePattern": true
+    },
+    "error": {
+      "type": "dateFile",
+      "filename": "logs/testcase-error",
+      "pattern": "-yyyyMMdd.log",
+      "absolute": false,
+      "alwaysIncludePattern": true
+    },
+    "logout": {
+      "type": "logLevelFilter",
+      "appender": "out",
+      "level": "info",
+      "maxLevel": "info"
+    },
+    "logerror": {
+      "type": "logLevelFilter",
+      "appender": "error",
+      "level": "error"
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": ["logout", "logerror"],
+      "level": "info"
+    }
+  }
+}
