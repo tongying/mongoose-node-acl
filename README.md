@@ -1,3 +1,5 @@
+# node-acl 权限demo（with mongoose）
+
 # 开发目录结构
 
 ### 启动方式
