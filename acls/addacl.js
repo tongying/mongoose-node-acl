@@ -7,10 +7,7 @@ var adminPermissions = {
     resources: [
         '/user/query',
         '/user/add',
-        '/user/delete',
-        '/block/add',
-        '/block/query',
-        '/block/delete'
+        '/user/delete'
     ],
     permissions: ['*'],
 };

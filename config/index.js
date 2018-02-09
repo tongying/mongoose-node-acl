@@ -5,9 +5,9 @@ module.exports = {
   mongodb: {
     host: '127.0.0.1',
     port: '27017',
-    db: 'TestCase',
-    account: 'TestCase',
-    pass: 'YdgikZ1RnOZHyhMy'
+    db: 'acltest',
+    account: 'acltest',
+    pass: ''
   },
   redis: {
     host: '127.0.0.1',

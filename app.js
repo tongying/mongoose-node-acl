@@ -94,8 +94,6 @@ app.get('/getuserinfo', controller.user.getuserinfo);
 
 app.use("/", index);
 app.use("/user", checkroute, user);
-app.use("/block", checkroute, block);
-app.use("/tag", checkroute, tag);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
