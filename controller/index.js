@@ -7,7 +7,5 @@ const block = require('./block.js');
 const tag = require('./tag.js');
 const user = require('./user.js');
 module.exports = {
-  user,
-  block,
-  tag
+  user
 };

@@ -1,4 +1,4 @@
-# 测试用例开发目录结构
+# 开发目录结构
 
 ### 启动方式
 ``` bash
@@ -20,7 +20,7 @@ pm2 start pm2.config.json
 
 ### 1.目录结构
 ```
-├── wy-testCase
+├── server
     ├── bin
     ├── config
     ├── controller

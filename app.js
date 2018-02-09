@@ -19,8 +19,6 @@ const controller = require('./controller/index');
 const config = require('./config/index');
 // 路由
 const index = require('./routes/index');
-const block = require('./routes/block');
-const tag = require('./routes/tag');
 const user = require('./routes/user');
 // 日志初始化
 const log4js = require('log4js');
