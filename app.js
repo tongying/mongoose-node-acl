@@ -1,8 +1,6 @@
 // 引入 mongoose 相关模型
 require('./model/user');
-require('./model/block');
 require('./model/case');
-require('./model/tag');
 require('./model/user');
 const checkroute  = require('./acls/checkroute.js');
 const express = require('express');
